@@ -7,6 +7,7 @@ import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Size;
 import java.util.Objects;
 
+//Class shared across Job, Employer and Skill classes
 @MappedSuperclass
 public abstract class AbstractEntity {
 
